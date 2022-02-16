@@ -7,21 +7,20 @@ class TreeNode:
         self.left = left
         self.right = right
 def makeTree(tree_list):
-    root=None
-    Node_list=[]
     if len(tree_list)==0:
         return None
-    for i in range(len(tree_list)):
-        if tree_list[i]=="null":
+    Node_list=[]
+    for i,tree_val in enumerate(tree_list):
+        if tree_val=="null":
+            Node_list.append(None)
             continue
-        Node=TreeNode(val=int(tree_list[i]))
+        val=int(tree_val)
+        Node=TreeNode(val=val)
         Node_list.append(Node)
-        if i%2!=0 and (i-1)//2>=0:
-
+        if i%2==1 and (i-1)/2>=0:
             Node_list[(i-1)//2].left=Node
-        elif i%2==0 and (i-2)//2>=0:
+        elif i%2==0 and (i-2)/2>=0:
             Node_list[(i-2)//2].right=Node
-    
     return Node_list[0]
 def inorderTraversal(root):
     stack_root=[]
