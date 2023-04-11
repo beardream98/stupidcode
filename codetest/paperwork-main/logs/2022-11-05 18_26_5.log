@@ -1,0 +1,45 @@
+----------file_split finished already----------
+column_name :['Query', 'keyword', 'query_len', 'emotion_value', 'label']
+----------trainData label's value_counts----------
+1    170432
+0    164806
+Name: label, dtype: int64
+----------trainData fold's value_counts----------
+1.0    234009
+0.0    101229
+Name: fold, dtype: int64
+----------fold 0----------
+----------train start----------
+epoch 0 learning rate start  :0.0002
+EPOCH:1/10 train_loss:0.14010667528420295,val_loss:0.312500880824195
+f1:0.9024075583382478,recall:0.9023797528376256,precesion:0.9053733170100041,val_acc:0.9023797528376256
+one_epoch_time:4.037773680686951 min
+best_model saved ,f1:0.9024075583382478,recall:0.9023797528376256,precesion:0.9053733170100041,val acc:0.9023797528376256
+epoch 1 learning rate start  :0.00018
+EPOCH:2/10 train_loss:0.046048003535587585,val_loss:0.32731847058642993
+f1:0.9117728563989734,recall:0.9117347795592172,precesion:0.91405848907563,val_acc:0.9117347795592172
+one_epoch_time:4.034319384892782 min
+best_model saved ,f1:0.9117728563989734,recall:0.9117347795592172,precesion:0.91405848907563,val acc:0.9117347795592172
+epoch 2 learning rate start  :0.00016
+EPOCH:3/10 train_loss:0.029697580851703948,val_loss:0.5831208220033934
+f1:0.8794549411800743,recall:0.8794811763427476,precesion:0.8841275759527629,val_acc:0.8794811763427476
+one_epoch_time:4.029449109236399 min
+epoch 3 learning rate start  :0.00014
+EPOCH:4/10 train_loss:0.020057564784062922,val_loss:0.5905673973488085
+f1:0.891871584504601,recall:0.8918886880241828,precesion:0.8964200479400328,val_acc:0.8918886880241828
+one_epoch_time:4.0195357720057165 min
+epoch 4 learning rate start  :0.00012
+EPOCH:5/10 train_loss:0.014415716102816252,val_loss:0.5115858813126882
+f1:0.9058224944227845,recall:0.905797745705282,precesion:0.9088927260785818,val_acc:0.905797745705282
+one_epoch_time:4.030362729231516 min
+epoch 5 learning rate start  :0.0001
+EPOCH:6/10 train_loss:0.01062037447155295,val_loss:0.6826545855011603
+f1:0.8939176713811486,recall:0.8939039208132057,precesion:0.8974736660025038,val_acc:0.8939039208132057
+one_epoch_time:4.038012039661408 min
+----------train finished----------
+best_val_acc:0.9117347795592172,best_val_loss:0.312500880824195,best_val_f1:0.9117728563989734
+
+Using/root/autodl-tmp/epsave/checkpoint/temp/bestmodel0.pth
+----------summary test metric----------
+label0:test-acc:0.9060222833761067 test:precesion:0.9090896862604493,recall:0.9060222833761067,f1:0.9060728667311528
+test-acc:0.9060222833761067 test:precesion:0.9090896862604493,recall:0.9060222833761067,f1:0.9060728667311528

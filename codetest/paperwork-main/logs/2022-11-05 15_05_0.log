@@ -1,0 +1,31 @@
+----------file_split finished already----------
+column_name :['Query', 'keyword', 'query_len', 'emotion_value', 'label']
+----------trainData label's value_counts----------
+0    190964
+1    174230
+Name: label, dtype: int64
+----------trainData fold's value_counts----------
+1.0    263965
+0.0    101229
+Name: fold, dtype: int64
+----------fold 0----------
+----------train start----------
+epoch 0 learning rate start  :0.0002
+EPOCH:1/10 train_loss:0.26216509840054103,val_loss:0.3124955502724407
+f1:0.8940749376086934,recall:0.8940422211026484,precesion:0.894216077920619,val_acc:0.8940422211026484
+one_epoch_time:4.405124239126841 min
+best_model saved ,f1:0.8940749376086934,recall:0.8940422211026484,precesion:0.894216077920619,val acc:0.8940422211026484
+epoch 1 learning rate start  :0.00018
+EPOCH:2/10 train_loss:0.17926809284114098,val_loss:0.3280472279799105
+f1:0.9034489985496272,recall:0.9033972478242401,precesion:0.9041245840771773,val_acc:0.9033972478242401
+one_epoch_time:4.400174566109976 min
+best_model saved ,f1:0.9034489985496272,recall:0.9033972478242401,precesion:0.9041245840771773,val acc:0.9033972478242401
+epoch 2 learning rate start  :0.00016
+EPOCH:3/10 train_loss:0.14707278201804141,val_loss:0.450984540310773
+f1:0.8875360154127443,recall:0.8874828359462209,precesion:0.8879494172076662,val_acc:0.8874828359462209
+one_epoch_time:4.364635868867238 min
+epoch 3 learning rate start  :0.00014
+EPOCH:4/10 train_loss:0.10865515923892805,val_loss:0.5239879353479906
+f1:0.8768718346233245,recall:0.8768732280275415,precesion:0.8768705399600714,val_acc:0.8768732280275415
+one_epoch_time:4.416152413686117 min
+epoch 4 learning rate start  :0.00012

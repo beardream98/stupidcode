@@ -1,0 +1,17 @@
+column_name :['Query', 'keyword', 'query_len', 'emotion_value', 'label']
+----------trainData label's value_counts----------
+0    122931
+1    108997
+Name: label, dtype: int64
+----------trainData fold's value_counts----------
+1.0    170111
+0.0     61817
+Name: fold, dtype: int64
+----------fold 0----------
+----------train start----------
+epoch 0 learning rate start  :0.0001
+EPOCH:1/50 train_loss:0.13950917323056916,val_loss:0.06209090316007214
+f1:0.9705704552676735,recall:0.9697576564136228,precesion:0.9718625447325973,val_acc:0.9707200284711326
+one_epoch_time:2.896574600537618 min
+best_model saved ,f1:0.9705704552676735,recall:0.9697576564136228,precesion:0.9718625447325973,val acc:0.9707200284711326
+epoch 1 learning rate start  :9.8e-05

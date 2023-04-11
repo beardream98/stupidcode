@@ -1,0 +1,10 @@
+gpustat
+schedule
+langid
+wandb
+transformers
+seaborn
+memory_profiler
+tensorflow
+keras
+numpy requests nlpaug

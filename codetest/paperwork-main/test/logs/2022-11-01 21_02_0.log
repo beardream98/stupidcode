@@ -1,0 +1,23 @@
+column_name :['Query', 'keyword', 'query_len', 'emotion_value', 'label']
+----------trainData label's value_counts----------
+1    1203
+0     953
+Name: label, dtype: int64
+----------trainData fold's value_counts----------
+1    1605
+0     551
+Name: fold, dtype: int64
+column_name :['Query', 'keyword', 'query_len', 'emotion_value', 'label']
+----------trainData label's value_counts----------
+0    115787
+1     98498
+1     10499
+0      7144
+Name: label, dtype: int64
+----------trainData fold's value_counts----------
+1.0    170111
+0.0     61817
+Name: fold, dtype: int64
+----------fold 0----------
+----------train start----------
+epoch 0 learning rate start  :0.0001

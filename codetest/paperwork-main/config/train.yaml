@@ -1,0 +1,47 @@
+DEBUG_MODEL: FALSE
+run_db: FALSE
+ContinueTrain: FALSE
+save_checkpoint_iter: 1000
+
+early_patience: 3
+LR: 0.00001
+EPS: 0.00000001
+dropout_rate: 0.5
+NUM_WARM_RATE: 0.0
+
+HARD_NEG: FALSE
+FILTER_RATE: 1
+HARD_RATE: 0
+SAMPLE_ALPHA: 1
+
+NUM_FOLDS: 4
+TRAIN_BATCH_SIZE : 512
+DEV_BATCH_SIZE : 1024
+# TRAIN_BATCH_SIZE : 3072
+# DEV_BATCH_SIZE : 4096
+FP16: O1
+different_negative: False
+# average: null
+average : weighted
+num_hidden_layers: 3
+cross_val: False
+MAX_LENGTH : 128
+SEED: 42
+EPOCHS : 10
+DATA_NUM: 100
+OUTPUT_EMBEDDING: False
+
+DATA_AUG : False
+PSEUDO_DATA : False
+SET_EMBEDDING : False
+# model_name: [bert-base-uncased,LR,RNN,SelfAttention,LSTM]
+model_name: bert-base-uncased
+
+INPUT_DIR: /root/autodl-tmp/epsave/data/binary/ExtraPositive
+SCHEMA_DIR:
+VCB_DIR:  /root/autodl-tmp/epsave/save_vocab
+MODEL_DIR: /root/autodl-tmp/model
+SAVE_PATH: /root/autodl-tmp/epsave/checkpoint/temp
+ContinuePath: /root/autodl-tmp/epsave/checkpoint/continue
+
+

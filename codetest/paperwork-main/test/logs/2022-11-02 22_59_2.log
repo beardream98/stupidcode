@@ -1,0 +1,37 @@
+column_name :['Query', 'keyword', 'query_len', 'emotion_value', 'label']
+----------trainData label's value_counts----------
+1    166911
+0    153044
+Name: label, dtype: int64
+----------trainData fold's value_counts----------
+1.0    234009
+0.0     85946
+Name: fold, dtype: int64
+----------fold 0----------
+----------train start----------
+epoch 0 learning rate start  :1e-06
+EPOCH:1/10 train_loss:0.7072592190706013,val_loss:0.5864551294417608
+f1:0.6986578247833588,recall:0.7056407511693389,precesion:0.7182282104863711,val_acc:0.7056407511693389
+one_epoch_time:4.010704024632772 min
+best_model saved ,f1:0.6986578247833588,recall:0.7056407511693389,precesion:0.7182282104863711,val acc:0.7056407511693389
+epoch 1 learning rate start  :9e-07
+EPOCH:2/10 train_loss:0.5047865200889566,val_loss:0.4085677173875627
+f1:0.8176398818685888,recall:0.8186303027482372,precesion:0.8219150126356948,val_acc:0.8186303027482372
+one_epoch_time:4.000159247716268 min
+best_model saved ,f1:0.8176398818685888,recall:0.8186303027482372,precesion:0.8219150126356948,val acc:0.8186303027482372
+epoch 2 learning rate start  :8e-07
+EPOCH:3/10 train_loss:0.4062741983783701,val_loss:0.35570221500737326
+f1:0.8490155951328046,recall:0.8495450631792055,precesion:0.8515777040215767,val_acc:0.8495450631792055
+one_epoch_time:4.02106066942215 min
+best_model saved ,f1:0.8490155951328046,recall:0.8495450631792055,precesion:0.8515777040215767,val acc:0.8495450631792055
+epoch 3 learning rate start  :7e-07
+EPOCH:4/10 train_loss:0.3667312553345831,val_loss:0.33002023256960367
+f1:0.8620552110971749,recall:0.8624136085449002,precesion:0.8637894995510816,val_acc:0.8624136085449002
+one_epoch_time:4.02772669394811 min
+best_model saved ,f1:0.8620552110971749,recall:0.8624136085449002,precesion:0.8637894995510816,val acc:0.8624136085449002
+epoch 4 learning rate start  :6e-07
+EPOCH:5/10 train_loss:0.34391532294411475,val_loss:0.3118820935487747
+f1:0.871021243051863,recall:0.8712912759174365,precesion:0.8723173675372979,val_acc:0.8712912759174365
+one_epoch_time:4.085627245903015 min
+best_model saved ,f1:0.871021243051863,recall:0.8712912759174365,precesion:0.8723173675372979,val acc:0.8712912759174365
+epoch 5 learning rate start  :5e-07

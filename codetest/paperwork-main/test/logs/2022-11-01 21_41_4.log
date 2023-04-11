@@ -1,0 +1,9 @@
+column_name :['Query', 'keyword', 'query_len', 'emotion_value', 'label']
+----------trainData label's value_counts----------
+0    41140
+1    40057
+Name: label, dtype: int64
+----------trainData fold's value_counts----------
+1.0    61670
+0.0    19527
+Name: fold, dtype: int64

@@ -1,0 +1,29 @@
+column_name :['Query', 'keyword', 'query_len', 'emotion_value', 'label']
+----------trainData label's value_counts----------
+0    130966
+1    116245
+Name: label, dtype: int64
+----------trainData fold's value_counts----------
+1.0    170111
+0.0     77100
+Name: fold, dtype: int64
+----------fold 0----------
+----------train start----------
+epoch 0 learning rate start  :1e-05
+EPOCH:1/50 train_loss:0.3059907896962381,val_loss:0.1630624383687973
+f1:0.9286706992355763,recall:0.9301337778979832,precesion:0.928847695554432,val_acc:0.928715953307393
+one_epoch_time:3.1135443409283954 min
+best_model saved ,f1:0.9286706992355763,recall:0.9301337778979832,precesion:0.928847695554432,val acc:0.928715953307393
+epoch 1 learning rate start  :9.800000000000001e-06
+EPOCH:2/50 train_loss:0.12050902134829894,val_loss:0.23521192920835396
+f1:0.8956884379888268,recall:0.8976795409904411,precesion:0.89679974145311,val_acc:0.8957068741893645
+one_epoch_time:3.069489141305288 min
+epoch 2 learning rate start  :9.600000000000001e-06
+EPOCH:3/50 train_loss:0.08470198814582108,val_loss:0.31625435697404963
+f1:0.8836594538355177,recall:0.884997446476616,precesion:0.8838440200595328,val_acc:0.8837354085603113
+one_epoch_time:3.0818841656049094 min
+epoch 3 learning rate start  :9.4e-06
+EPOCH:4/50 train_loss:0.0700078019942332,val_loss:0.39518485571208756
+f1:0.8780022157547509,recall:0.8793382271688712,precesion:0.8782031663225962,val_acc:0.8780804150453956
+one_epoch_time:3.0797577619552614 min
+epoch 4 learning rate start  :9.200000000000002e-06

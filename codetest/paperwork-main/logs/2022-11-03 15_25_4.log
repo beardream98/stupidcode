@@ -1,0 +1,13 @@
+----------file_split finished already----------
+column_name :['Query', 'keyword', 'query_len', 'emotion_value', 'label']
+----------trainData label's value_counts----------
+1    170432
+0    164806
+Name: label, dtype: int64
+----------trainData fold's value_counts----------
+1.0    234009
+0.0    101229
+Name: fold, dtype: int64
+----------fold 0----------
+----------train start----------
+epoch 0 learning rate start  :0.0002

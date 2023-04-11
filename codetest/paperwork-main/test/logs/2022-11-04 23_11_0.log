@@ -1,0 +1,3 @@
+column_name :['Query', 'keyword', 'query_len', 'emotion_value', 'label']
+
+Using/root/autodl-tmp/epsave/checkpoint/best/binarybert/bestmodel0.pth

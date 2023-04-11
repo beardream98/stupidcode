@@ -1,0 +1,33 @@
+DEBUG_MODEL: False
+# model_name: xlm-roberta-base
+model_name: bert-base-uncased
+
+run_db: False
+early_patience: 5
+LR: 0.00001
+EPS: 0.00000001
+NUM_FOLDS: 5
+dropout_rate: 0.0
+TRAIN_BATCH_SIZE : 2048
+DEV_BATCH_SIZE : 8192
+FP16: True
+NUM_WARM_RATE: 0.0
+
+KEEP_DSAT: FALSE
+different_negative: True
+average: null
+# average : macro
+num_hidden_layers: 12
+multiple_language: True
+cross_val: False
+MAX_LENGTH : 32
+SEED: 42
+EPOCHS : 40
+DATA_NUM: 5000
+data_name: query
+# data_name: imbd
+
+INPUT_DIR: /vc_data/users/v-mxiong/qc/UvData
+SCHEMA_DIR: /vc_data/users/v-mxiong/qc/UvData
+MODEL_DIR:
+SAVE_PATH: ./checkpoint/datareview
