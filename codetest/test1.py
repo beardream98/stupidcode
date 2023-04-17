@@ -1,23 +1,23 @@
-n=3
-value=[1, 2, 3]
-father_id=[0, 1, 1]
+import heapq
+from collections import Counter
+from typing import List
 
-son_id=[[] for _ in range(n)]
-for index,id in enumerate(father_id):
-    if id==0:
-        continue
-    son_id[id-1].append(index)
-
-ans=[v for v in value ]
-def rec(father_id):
-    if son_id[father_id]==[]:
-        return ans[father_id]
+class Solution:
+    def topKFrequent(self, nums: List[int], k: int) -> List[int]:
+        count = Counter(nums)
+        heap = []
+        for key,value in count.items():
+            if len(heap) >= k:
+                if value > heap[0][0]:
+                    heapq.heapreplace(heap,(value,key))
+            else:
+                heapq.heappush(heap,(value,key))
+        print(heap)
+        return [ t[1] for t in heap ]
     
-    for id1 in son_id[father_id]:
-        ans[father_id]+=rec(id1)
-    
-    return ans[father_id]
-
-rec(0)
-print(max(ans))
+s = Solution()
+nums = [1,1,1,2,2,3]
+k = 2
+res = s.topKFrequent(nums,k)
+print(res)
 
